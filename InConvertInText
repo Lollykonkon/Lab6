@@ -15,7 +15,7 @@ public class InConvertInText {
 
     public static void main(String[] args) {
         try {
-            InputStream inFile = new FileInputStream("C:\\Users\\Sergeeva\\IdeaProjects\\Lab6\\Myfile1.txt");
+            InputStream inFile = new FileInputStream("C:\\Users\\barak\\IdeaProjects\\Lab6\\Myfile1.txt");
             Reader rFile = new InputStreamReader(inFile, "cp1251");
             readAllByByte(rFile);
             System.out.print("\n\n\n");
